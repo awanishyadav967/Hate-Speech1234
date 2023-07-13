@@ -1,4 +1,4 @@
-#from copyreg import pickle
+from copyreg import pickle
 import streamlit as st
 import pickle
 #import numpy as np
