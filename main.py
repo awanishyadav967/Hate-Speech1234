@@ -1,8 +1,8 @@
-from copyreg import pickle
+#from copyreg import pickle
 import streamlit as st
 import pickle
-import numpy as np
-from sklearn.tree import DecisionTreeClassifier
+#import numpy as np
+#from sklearn.tree import DecisionTreeClassifier
 
 # Set page configuration
 st.set_page_config(page_title="Hate Speech Detection", layout="wide")
