@@ -84,8 +84,8 @@ selected_example = st.selectbox("Select an example speech", example_speeches)
 if st.button("Check Example Speech"):
     st.text_area("Selected Example Speech", selected_example, height=100)
     # Load the pre-trained model and feature vectorizer
-    model = pickle.load(open("hate_speech_model.pkl", "rb"))
-    cv = pickle.load(open("cv.pkl", "rb"))
+    model = pickle.load(open('hate_speech_model.pkl', "rb"))
+    cv = pickle.load(open('cv.pkl', "rb"))
 
     # Preprocess the example speech
     data = cv.transform([selected_example]).toarray()
